@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/22524fbd65.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="cross">
+        <nav>
+            <a href="index.html"><img src="ju logo(2).png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <h1>Courses</h1>
+    </section>
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Arts,Science,Engineering.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Jadavpur University is semi-residential, which at present operates out of two urban campuses: one in Jadavpur (58 acres (230,000 m2)) and another in Salt Lake (26 acres (110,000 m2)).</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Jadavpur University is semi-residential, which at present operates out of two urban campuses: one in Jadavpur (58 acres (230,000 m2)) and another in Salt Lake (26 acres (110,000 m2)).</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Jadavpur University is semi-residential, which at present operates out of two urban campuses: one in Jadavpur (58 acres (230,000 m2)) and another in Salt Lake (26 acres (110,000 m2)).</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>The university is extremely keen on the betterment of infrastructure to promote a more conducive academic environment. Major developmental works were taken up during the 2008-2013 period</p>
+
+            <div class="row">
+                <div class="facilities-col">
+                   <img src="ju libary.jpg"> 
+                   <h3>ju central libary</h3>
+                   <p>Three-storied building on the campus. Its shelf space and working space
+                    total 36,000 sq. ft. Seven reading rooms, carrels, and an alcove for bound volumes of
+                    journals provide sitting accommodation for 700 readers.There is a separate libary for salt lake campus.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="ground.jpg"> 
+                    <h3>Largest Play Ground</h3>
+                    <p>Discover a playground paradise with us!</p>
+                
+                 </div>
+                 <div class="facilities-col">
+                    <img src="aahar.jpg"> 
+                    <h3>canteen</h3>
+                    <p>More than 7 canteens and Restaurants throughout the campus. Discover the best foods from from snacks to desserts at affordable prices and best qualities with the best tastes.</p>
+               
+                 </div>
+            </div>
+    </section>
+
+
+
+
+
+    <section class="footer"> 
+        <h4>About Us</h4>
+        <p>We choose not to be silent and we choose to be the way we want.</p>
+        
+        <div class="icons">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+
+    </section>
+
+
+    <script>
+
+        var navLinks =  document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
